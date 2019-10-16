@@ -1,0 +1,80 @@
+
+/*
+           Email:Venkatpranayreddy_mereddy@student.uml.edu
+           Name: Venkat Pranay Reddy
+           I am a senoir at Umass Lowell in  91.61 GUI Programming I
+
+           File: weblab.cs.uml.edu/~vreddy
+           91.461 Assignment:  Creating Your  Web Page
+           Venkat Pranay Reddy, UMass Lowell Computer Science, vreddy@cs.uml.edu
+           Copyright (c) 2019 by venkat reddy.  All rights reserved.  May be
+           freely copied or excerpted for educational purposes with credit to the
+           author.
+           updated by vr on Ocrober 9, 2019 at 4:23 PM
+           when checked on suggested validators no errors were shown
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body
+{
+background-color:#ADD8E6;
+}
+/*Setting the image for the tabs*/
+a {
+	color: white;
+	background-image: url('sunset.jpg');
+	background-size: 100% 100%
+}
+/*Padding of the tabs*/
+a:link {
+	padding: 6px 12px 6px 12px;
+}
+/*Two images left and right*/
+.picture{
+  float: left;
+  width:25%;
+}
+
+h3{
+	font-style: italic;
+}
+
+.picture3{
+  float:right;
+    width:25%;
+}
+.move{
+  text-align:center;
+}
+.p{
+  color:green;
+  float:left;
+  font-style:italic;
+}
+/*Tabs with the hover effect*/
+.tabs {
+  background-color: gray;
+  color: black;
+  border: 5px;
+}
+.tabs:hover {
+  background-color: green;
+}
+.imagesplaces{
+		background-image: url('city.jpg');
+		color:red;
+		font-weight: bold;
+		font-size:20px;
+
+}
+/*Contact page with image*/
+#contact {
+	font-size: 90%;
+}
+.contact-info
+{
+	color: white;
+	background-image: url('sunset2.jpg');
+	background-size: 100% 100%
+}

@@ -1,0 +1,115 @@
+
+<!--
+           Email:Venkatpranayreddy_mereddy@student.uml.edu
+           Name: Venkat Pranay Reddy
+           I am a senoir at Umass Lowell in  91.61 GUI Programming I
+
+           File: weblab.cs.uml.edu/~vreddy
+           91.461 Assignment:  Creating Your  Web Page
+           Venkat Pranay Reddy, UMass Lowell Computer Science, vreddy@cs.uml.edu
+           Copyright (c) 2019 by venkat reddy.  All rights reserved.  May be
+           freely copied or excerpted for educational purposes with credit to the
+           author.
+           updated by vr on October  9, 2019 at 4:23 PM
+           when checked on suggested validators no errors were shown
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="index.css" rel="stylesheet">
+<title>WELCOME TO MY WORLD</title>
+</head>
+<body >
+  <p><a href="https://cs.uml.edu/~vreddy/index.html">  Assignment 1</a>
+  <a href="https://cs.uml.edu/~vreddy/index20.html">  Assignment 2</a>
+  <a href="https://cs.uml.edu/~vreddy/index30.html">  Assignment 3</a>
+  <a href="https://cs.uml.edu/~vreddy/index40.html">Assignment 4</a>
+  <a href="https://cs.uml.edu/~vreddy/index40.html">Assignment 5</a>
+      </p>
+
+
+
+<p>
+  <!-- img src code was used three times to insert image -->
+
+<div class="picture">
+  <img src="ii.png" alt="ii image" width="200" height="200">
+</div>
+
+<div class="picture3">
+    <img src="uml2.png" alt="uml image" height="200" width="200">
+    </div>
+
+<div class= "move">
+  <h3> ABOUT ME
+  </h3>
+</div>
+
+<div class= "p">
+  <p>This is Venkat Reddy from India.I am studying computer science here at the University Of Massachusetts Lowell.I am a double major in Computer Science and Economics. I love playing Cricket and Soccer . Umass Lowell has given me a lovely opportunity to play cricket here , I have won many championships for cricket here at umass Lowell and also was elected as the most valuable player(MVP).Umass Lowell has given me an opportunity to devolop myself and gain a nice family here.I am loving my time here.</p>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3>Favorites</h3>
+
+<!-- Below i have created the click button to show the hidden answer -->
+<div class="imagesplaces">
+
+<p> Place favorite</p>
+<button class="tabs" onclick="myFunction1()">Click here</button>
+
+<p id="FavoritePlace"></p>
+<script>
+function myFunction1() {
+  document.getElementById("FavoritePlace").innerHTML = "Venice";
+}
+</script>
+
+<p>My favorite Food</p>
+<button class="tabs"  onclick="myFunction2()">Click here</button>
+
+<p id="FavoriteFood"></p>
+<script>
+function myFunction2() {
+  document.getElementById("FavoriteFood").innerHTML = "Biryani";
+}
+</script>
+<p>My favorite Sport</p>
+<button class="tabs" onclick="myFunction()">Click here</button>
+<p id="Sport"></p>
+<script>
+function myFunction() {
+  document.getElementById("Sport").innerHTML = "Cricket";
+}
+</script>
+</div>
+<hr>
+<br>
+<div class="contact-info">
+<div id="contact">
+
+<p>Contact info</p>
+    Venkat Reddy
+    <br>
+     Boston, MASS
+    <br>
+    Email: Venkatpranayreddy_mereddy@student.uml.edu
+    <br>
+    <div class="valid">
+    <img src="icon.png" alt="icon image">
+
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
